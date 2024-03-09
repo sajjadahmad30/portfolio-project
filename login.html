@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <style>
+      body{
+        margin: 0%;
+        background-image: url(./images/bPic.jpg);
+        background-size: cover;
+      }
+     
+      .select{
+        width: 60%;
+      }
+      .Phone{
+        width: 50;
+      }
+    </style>
+</head>
+<body>
+
+<fieldset>
+     <legend><h1>EVENT_REGISTRATION_FORMS</h1>
+     </legend>
+     <form action="login.html">
+     <table border="0" align="center">
+        <tr>
+        <tr>
+          <td width="30%"> Frist_Name </td>
+          <td width="70%">
+            <input type="text"placeholder="Enetr your First Name.....">  
+            <input type="text"placeholder="Enetr your Last Name....."> </td>
+        </tr>
+
+        <tr>
+          <td> Company </td>
+          <td> <textarea cols="45" rows="2"> Enter your Comapany.......</textarea></td>
+        </tr>
+
+
+        <tr>
+          <td>Email</td>
+          <td><input type="email" placeholder="Enetr your email....." class="select" size="80%" maxlength="56"></td>
+         </tr>
+
+        <tr>
+          <td>Phone </td>
+          <td > <select><option value="">092</option></select>    <input type="number" class="Phone" size="34%" ></td>
+        </tr>
+      
+      
+        <tr>
+          <td> Subject </td>
+          <td> <select class="select">
+            <option value="">Chooes Option</option>
+            <option value="">Islamia college peshawar</option>
+            <option value="">University Of peshawar</option>
+            <option value="">University Of Agricalture</option>
+            <option value="">University Of CECOS</option>
+          </select></td>
+        </tr>
+        
+
+        <tr>
+          <td>Upload_File</td>
+          <td><input type="file" name="file" id="file"></td>
+        </tr>
+       
+
+        <tr>
+          <td><label for="">Are you an existing customer:</label></td>
+          <td> <input type="radio" name="rad"> Yes <input type="radio" name="rad" style="margin-left:33px;" > No
+          </td>
+        </tr>
+       
+      
+    
+    <td></td>
+    <td><input type="submit" name="Upload_File" id="sub"></td>
+        </tr>
+     </table>
+     </form> 
+  
+</fieldset>
+</body>
+</html>
